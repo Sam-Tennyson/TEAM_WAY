@@ -2,8 +2,43 @@
 <html lang="en">
 <head>
     <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            border: 3px solid rgb(83, 187, 63);
+            background-color: rgb(83, 187, 63);
+            display: flex;
+            justify-content: space-around;
+        }
+        .container a  {
+            text-align: none;
+            color: white;
+            padding: 8px 15px;
+        }
+
+        .container a:hover {
+            background-color: rgb(55, 206, 55);
+            color: yellow;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <a>Home</a>
+        <a>Contact</a>
+        <a>Service</a>
+        <a>Experience</a>
+        <!-- <ul class="">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Experience</a></li>
+        </ul> -->
+    </div>
     <h1>This is github</h1>
 </body>
 </html>
